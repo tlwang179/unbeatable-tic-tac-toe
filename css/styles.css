@@ -1,0 +1,195 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+                               Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+/*My CSS*/
+body{
+    background-color: aliceblue;
+}
+.container{
+    text-align: center;         /*Centers inline text/objects*/
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: ;*/
+    padding:20px;
+}
+#result{
+    display: none;
+    /*visibility: hidden;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    color:red;
+}
+h1{
+    font-size: 70px;
+    padding:20px;
+    color: darkslateblue;
+}
+h3{
+    font-size: 40px;
+    padding: 20px;
+    color:#849EBE;
+}
+.button {
+    /*color: white;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.selectXorO {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 80px;
+}
+
+#restart-button{
+    margin-top:50px;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 250px;
+    border-radius: 50%;
+    border-color:#4E6075 ;
+    background-color: #90A9C5;
+    color:darkslateblue;
+    text-align: center;
+    font-size:60px;
+    display: none;
+}
+.board{
+    display: inline-block;      /*Allows centering of the board because it's inline*/
+    width: 398px;               /* 300+2+2*/
+    height: 398px;
+    margin:0;
+}
+
+.block{
+    display: inline-block;      /*Allow divs to be on same row*/
+    vertical-align: top;        /*Remove unwanted top space*/
+    width:  130px;
+    height: 130px;
+    margin:0;
+    padding:0;
+    text-align: center;
+    text-align-all: center;
+    float:none;
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.block:not(.no-hover):hover{
+    background-color: #cccccc;
+}
+
+.top{
+    border-top: 4px solid midnightblue;
+}
+.left{
+    border-left: 4px solid midnightblue;
+}

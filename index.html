@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Tic-Tac-Toe</title>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/computer.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1> Unbeatable Tic-Tac-Toe Game </h1>
+            <div id="selection-buttons">
+                <h3> Select your symbol: </h3>
+                <button class="button selectXorO X" onclick="selectShapeStart('X')"> X </button>
+                <button class="button selectXorO O" onclick="selectShapeStart('O')"> O </button>
+            </div>
+            <h3 id="result"></h3>
+            <button class="button selectXorO" id="restart-button" onclick="restart()">Restart</button>
+        </div>
+        <div class="container">
+            <div class="board">
+                <div class="block" id="b1"></div><div class="block left" id="b2"></div><div class="block left" id="b3"></div><div class="block top" id="b4"></div><div class="block left top" id="b5"></div><div class="block left top" id="b6"></div><div class="block top" id="b7"></div><div class="block left top" id="b8"></div><div class="block left top" id="b9"></div>
+            </div>
+        </div>
+    </body>
+</html>
