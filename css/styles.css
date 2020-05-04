@@ -114,23 +114,21 @@ body{
 .container{
     text-align: center;         /*Centers inline text/objects*/
     font-family: 'Montserrat', sans-serif;
-    /*background-color: ;*/
     padding:20px;
 }
 #result{
     display: none;
-    /*visibility: hidden;*/
     font-family: 'Montserrat', sans-serif;
-    font-size:50px;
+    font-size:30px;
     color:red;
 }
 h1{
-    font-size: 70px;
+    font-size: 50px;
     padding:20px;
     color: darkslateblue;
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
     color:#849EBE;
 }
@@ -143,43 +141,42 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 .selectXorO {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 #restart-button{
-    margin-top:50px;
-    margin-bottom: 30px;
-    height: 120px;
-    width: 250px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 230px;
     border-radius: 50%;
     border-color:#4E6075 ;
     background-color: #90A9C5;
     color:darkslateblue;
     text-align: center;
-    font-size:60px;
+    font-size:50px;
     display: none;
 }
 .board{
     display: inline-block;      /*Allows centering of the board because it's inline*/
-    width: 398px;               /* 300+2+2*/
-    height: 398px;
+    width: 308px;               /* 300+2+2*/
+    height: 308px;
     margin:0;
 }
 
 .block{
     display: inline-block;      /*Allow divs to be on same row*/
     vertical-align: top;        /*Remove unwanted top space*/
-    width:  130px;
-    height: 130px;
+    width:  100px;
+    height: 100px;
     margin:0;
     padding:0;
     text-align: center;
-    text-align-all: center;
     float:none;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
